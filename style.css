@@ -1,0 +1,42 @@
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	text-decoration: none;
+	border: none;
+	outline: none;
+}
+
+
+@font-face {
+    font-family: 'tipografia';
+    src: url('Recursos/Tipografía/OpenSans-Regular.ttf') format('truetype');
+}
+
+body {
+    font-family: 'tipografia', sans-serif; 
+}
+
+.parte_1{
+    background-image: url(img/Fondo1.jpg);
+    
+}
+
+.parte_1 h1, .parte_1 p, .parte_1 a{
+    color: white;
+}
+
+.nav_link{
+    text-align: right;
+    list-style: none;
+}
+
+.navbar {
+    display: flex;
+}
+
+.nav_list{
+    width: 100%;
+    margin-left: 10px;
+    padding: 10px;
+}
