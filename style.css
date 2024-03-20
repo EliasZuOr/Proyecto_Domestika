@@ -26,9 +26,15 @@ body {
     color: white;
 }
 
+.parte_1 .navbar img{
+    height: 20px;
+    width: auto;
+}
+
 .nav_link{
     text-align: right;
     list-style: none;
+    display: inline-block;
 }
 
 .navbar {
